@@ -21,6 +21,9 @@ router.get("/ping", (req: Request, res: Response) => {
 
 router.use("/example", RoutesRegistry.ExampleRoutes)
 
+router.use("/login", RoutesRegistry.AuthRoutes)
+
+router.use("/user", RoutesRegistry.UserRoutes)
 
 router.all("*", (req: Request, res: Response) => {
   return response_not_found(res);
