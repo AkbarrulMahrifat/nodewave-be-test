@@ -1,5 +1,7 @@
 # Node Wave Backend Test - Akbarrul Mahrifat
 
+## Postman Collection
+https://www.postman.com/akbarrulmahrifat/workspace/299aa000-78ce-4174-835d-c403ce4d4372/collection/8433215-b0f80d56-1bc6-493d-af96-d6a207e922ad?action=share&creator=8433215
 
 ## Tech Stacks 
 
