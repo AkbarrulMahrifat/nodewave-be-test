@@ -4,6 +4,8 @@ import authMiddleware from '../middlewares/authMiddleware';
 
 const UserRouter = Router({mergeParams:true});
 
-UserRouter.route('/:id').get(authMiddleware, UserController.getById);
+UserRouter.route('/detail/:id').get(authMiddleware, UserController.getById);
+
+UserRouter.route('/import').get(authMiddleware, UserController.importFile);
 
 export default UserRouter;
